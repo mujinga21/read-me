@@ -1,6 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -12,13 +14,35 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `## ${data.title}
+${data.license}
+  ## Table of Contents
+
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [license](#license)
+  * [Contribution](#contribution)
+  * [Test](#test)
+  * [Question](#question)
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## Description
   ${data.description}
+  ## Contribution
   ${data.contribution}
-  ${data.test}
+  ## Test
+  ${data.test} 
+  ## License
   ${data.license}
+
+  ## Questions
+If you have questions about my projects please long into my GitHub at the address below:
   $https://github.com/${data.github}
-  ${data.username}@gmail.com
+To contact me please send an email to the email address below:
+  ${data.email}@gmail.com
 
 `;
 }
