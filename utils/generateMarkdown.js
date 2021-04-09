@@ -17,8 +17,8 @@ function generateMarkdown(data) {
   ${data.contribution}
   ${data.test}
   ${data.license}
-  ${data.github}
-  ${data.email}
+  $https://github.com/${data.github}
+  ${data.username}@gmail.com
 
 `;
 }
