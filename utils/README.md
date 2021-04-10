@@ -10,20 +10,22 @@ undefined
   * [Test](#test)
   * [Question](#question)
   ## Installation
-  by following instructions given in description
+  by using index js
   ## Usage
-  to help improve projects and make them easy to follow
+  to create a readme for projects
   ## Description
-  this project help create a ReadMe
+  Enableling user to make a readMe
   ## Contribution
   Mujinga
   ## Test
-  By using node 
+  By entering data  
 
 
   ## Questions
 If you have questions about my projects please long into my GitHub at the address below:
   $https://github.com/Mujinga21
 To contact me please send an email to the email address below:
-  Mujinga_9@gmail.com
+  mujinga_9@gmail.com
+
+  
 
