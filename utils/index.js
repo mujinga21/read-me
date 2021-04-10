@@ -15,12 +15,14 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 const init = () => {
-  promptUser()
+    promptUser()
     // .then((answers) => writeFileAsync('index.html', generateHTML(answers)))
-    .then((answers) => writeFileAsync("README.md", generateMarkdown(answers)))
-    .then(() => console.log("Successfully wrote to index.html"))
-    .catch((err) => console.error(err));
-};
+      .then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
+      .then(() => console.log('Successfully wrote to index.html'))
+      .catch((err) => console.error(err));
+  };
+  
+
 
 const promptUser = () => {
   return inquirer.prompt([
@@ -30,40 +32,36 @@ const promptUser = () => {
       message: "What is your project title?",
     },
     {
-      type: "input",
-      name: "Table of Contents",
-      message: "enter your table of contents",
+      type:"input",
+      name: "table of Contents",
+      message: "enter your table of contents"
     },
     {
       type: "input",
-      name: "Description",
+      name: "description",
       message: "What is the project description?",
     },
     {
       type: "input",
-      name: "Installation",
+      name: "installation",
       message: "how is the installation done?",
     },
     {
       type: "input",
-      name: "Usage",
+      name: "usage",
       message: "What will this be used for?",
     },
     {
-      type: "input",
-      name: "contribution",
-      message: "Who contributed to this project?",
-    },
-    {
-      type: "input",
-      name: "test",
-      message: "How to run your test?",
-    },
-    {
-      type: "input",
-      name: "license",
-      message: "Which license the application is cover under?",
-    },
+        type: "input",
+        name: "contribution",
+        message: "Who contributed to this project?",
+      },
+      {
+        type: "input",
+        name: "test",
+        message: "How to run your test?",
+      },
+   
     {
       type: "input",
       name: "github",
@@ -74,6 +72,8 @@ const promptUser = () => {
       name: "email",
       message: "Enter your email",
     },
+    
   ]);
+  
 };
 init();

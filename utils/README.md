@@ -1,5 +1,5 @@
 ## ReadMe
-need to work on this
+undefined
   ## Table of Contents
 
   * [Description](#description)
@@ -10,21 +10,20 @@ need to work on this
   * [Test](#test)
   * [Question](#question)
   ## Installation
-  undefined
+  by following instructions given in description
   ## Usage
-  undefined
+  to help improve projects and make them easy to follow
   ## Description
-  undefined
+  this project help create a ReadMe
   ## Contribution
-  Mujinga Williams
+  Mujinga
   ## Test
-  by following the instruction under description 
-  ## License
-  need to work on this
+  By using node 
+
 
   ## Questions
 If you have questions about my projects please long into my GitHub at the address below:
   $https://github.com/Mujinga21
 To contact me please send an email to the email address below:
-  mujinga_9@hotmail.com@gmail.com
+  Mujinga_9@gmail.com
 
